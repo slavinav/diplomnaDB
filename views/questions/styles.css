@@ -1,0 +1,111 @@
+body {
+  background-color: #f5f5f5;
+}
+
+table {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 0px 10px 0px 10px;
+  max-width: 100%;
+}
+
+.number {
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  width: 100%;
+}
+
+.number:hover {
+  background-color: grey;
+  color: honeydew;
+}
+
+.userData {
+  margin: 20 10 20 10;
+  height: 10%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.answered {
+  padding: 5px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.time {
+  padding: 2px;
+  background-color: hotpink;
+}
+
+.headerWrp {
+  margin: 10 10 10 10;
+  height: 10%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.questNum{
+  text-align: right;
+  float: right;
+  margin: 20px;
+}
+.left{
+  text-align: center;
+  padding: 20px;
+  float: left;
+  margin: 20px;
+}
+
+.question{
+  margin: 20 10 20 10;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  height: 60%;
+  background-color: #fcfcfc;
+}
+
+.qText {
+  text-align: left;
+  padding: 10px;
+  height: 15%;
+}
+
+.response{
+  margin: 5px;
+  height: 15%;
+  font-size: 0.7em;
+}
+
+.selected{
+  background-color: grey;
+  color: white;
+}
+
+.submit{
+  margin: 20 10 20 10;
+  height: 15%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.next{
+  margin-top: 60%;
+  height: 45%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.time{
+  background-color: white;
+  border-radius: 10px;
+}
+
