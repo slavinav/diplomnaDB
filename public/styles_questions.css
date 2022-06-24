@@ -1,0 +1,169 @@
+body {
+  background-color: #f5f5f5;
+}
+
+table {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 0px 10px 0px 10px;
+  max-width: 100%;
+}
+
+.leftCont {
+  position:relative;
+  max-height: 90%;
+}
+
+.number {
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  width: 100%;
+}
+
+.number:hover {
+  background-color: grey;
+  color: honeydew;
+}
+
+
+.answeredStyle {
+  background-color: grey;
+  color: white;
+}
+
+
+.userData {
+  margin: 20 10 20 10;
+  height: 10%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.answered {
+  padding: 5px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.time {
+  padding: 2px;
+  background-color: hotpink;
+}
+
+.headerWrp {
+  margin: 10 10 10 10;
+  height: 10%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.questNum{
+  text-align: right;
+  float: right;
+  margin: 20px;
+}
+.left{
+  text-align: center;
+  padding: 20px;
+  float: left;
+  margin: 20px;
+}
+
+.question{
+  margin: 20 10 20 10;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  height: 72%;
+  background-color: #fcfcfc;
+}
+
+.results {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  background-color: rgb(161, 163, 167);
+  border-radius: 10px;
+  border: 1px solid grey;
+  z-index: 1000;
+  top: 20%;
+  left: 30%;
+
+  font-size: 35;
+}
+.hidden {
+  display: none;
+}
+
+
+.qText {
+  text-align: left;
+  padding: 10px;
+  height: 15%;
+}
+
+.response{
+  margin: 5px;
+  height: 15%;
+  font-size: 0.7em;
+}
+
+.selected{
+  background-color: grey;
+  color: white;
+}
+
+.submit{
+  margin: 20 10 20 10;
+  height: 15%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.next{
+  margin: 20 10 20 10;
+  margin-top: 20%;
+  height: 50%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.time{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.review{
+  font-size: 25;
+  margin: 70 20;
+  border: 1px solid grey;
+  height: 15%;
+  width: 90%;
+  border-radius: 10px;
+}
+.correct {
+  background-color: rgb(4, 180, 107);
+  color: white;
+}
+
+.wrong{
+  background-color: rgb(158, 56, 52);
+  color: white;
+}
+
+.correctTextStyle {
+  color: green;
+}
+
+@media(max-width: 992px){
+  .leftContainer{
+    display: none;
+  }
+}
